@@ -1,5 +1,5 @@
 ###
-POST http://localhost:4000/api/peoples
+POST http://localhost:3000/api/peoples
 Content-Type: application/json
 
 {
@@ -9,4 +9,4 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:4000/api/peoples
+GET http://localhost:3000/api/peoples
