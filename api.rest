@@ -3,9 +3,9 @@ POST http://localhost:4000/api/peoples
 Content-Type: application/json
 
 {
-    "name": "Juan Diaz",
-    "mail": "juanD@gmail.com",
-    "km": "25"
+    "name": "Tatiana Ardila",
+    "mail": "tatis@gmail.com",
+    "km": "5"
 }
 
 ###
