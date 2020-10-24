@@ -13,9 +13,9 @@ peopleCtrl.createPeople = async (req, res) => {
    await newPeople.save(function(err){
        if(err){
     console.log(String(err));
-    res.send({message: 'People no Created'})
+    res.send({message: 'The person was not entered into the database'})
    }else{
-    res.send({message: 'People Created'})
+    res.send({message: 'The person was entered into the database'})
    }
    });
    
