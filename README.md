@@ -15,7 +15,7 @@ Create Rest API to interact with the Fronted.
 #install dependency
 
 Express to create SERVER. (npm install express)
-Morgan to validate requests that go to the server (nom install morgan)
+Morgan to validate requests that go to the server (npm install morgan)
 Modemom tp restart the server every time it is modified (npm install nodemon -D) for run server (npm run dev)
 
 #Steps to test
@@ -27,7 +27,7 @@ Modemom tp restart the server every time it is modified (npm install nodemon -D)
 
 #Also yo can do.
 
-In postman or your Rest client favorite paste this link http://localhost:4000/api/peoples, use anyone of the methods.POST create a registre and GET to get the data.
+In postman or your Rest client favorite paste this link http://localhost:3000/api/peoples, use anyone of the methods.POST create a registre and GET to get the data.
 
 
  
