@@ -5,5 +5,5 @@ mongoose
         useUnifiedTopology: true,
         useNewUrlParser: true,
     })
-    .then((db) => console.log("DB is connected"))
+    .then((db) => console.log("DB people is connected"))
     .catch((err) => console.log(err));
