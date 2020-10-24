@@ -1,0 +1,12 @@
+###
+POST http://localhost:4000/api/peoples
+Content-Type: application/json
+
+{
+    "name": "Juan Perez",
+    "mail": "pedro1@gmail.com",
+    "km": "3"
+}
+
+###
+GET http://localhost:4000/api/peoples
